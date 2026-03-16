@@ -1,0 +1,3 @@
+model,ckpt,ckpt_id,data_dir,split,n_grid,n_train,n_val,n_test,n_sensors,mean_rel_l2,median_rel_l2,p90_rel_l2,mean_mse,infer_ms_per_sample,p,branch_width,trunk_width,depth,model_type,modes,width,layers
+deeponet,runs\deeponet\best.pt,74a932c38d,data/main_fe,test,33,500,100,100,128,0.012658381834626198,0.01265781745314598,0.012698562815785408,8.466104191029444e-07,0.4081100000027019,128.0,256.0,256.0,4.0,deeponet,,,
+fno,runs\fno\best.pt,1e84091aff,data/main_fe,test,33,500,100,100,128,0.0008558271802030504,0.0008459595264866948,0.0009535187273286283,3.90114518467044e-09,4.801521710529063,,,,,fno,12.0,32.0,4.0
